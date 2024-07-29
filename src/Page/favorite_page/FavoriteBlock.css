@@ -1,9 +1,9 @@
 .main-block {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
     justify-content: center;
     gap: 20px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .block-null{
     display: flex;
