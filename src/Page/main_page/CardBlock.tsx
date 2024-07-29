@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./CardBlock.css";
 import { useNavigate } from "react-router-dom";
-import UserCard from "./UserCard";
+import UserCard from "../components/UserCard";
 
 interface User {
   id: number;

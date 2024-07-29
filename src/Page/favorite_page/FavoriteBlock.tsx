@@ -1,6 +1,6 @@
 import React from "react";
 import "./FavoriteBlock.css";
-import UserCard from "../main_page/UserCard";
+import UserCard from "../components/UserCard";
 import { useNavigate } from "react-router-dom";
 
 interface User {

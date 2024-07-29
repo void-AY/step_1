@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardBlock.css";
+import "./UserCard.css";
 
 interface User {
   id: number;
