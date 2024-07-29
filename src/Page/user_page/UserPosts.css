@@ -1,0 +1,87 @@
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-header h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.user-header h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.header-block {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    
+    justify-content: center;
+    gap: 20px;
+}
+.user-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.post-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2B2B;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 84px; */
+    padding: 15px 20px;
+    border-radius: 18px;
+    gap: 10px;
+}
+.post-block h2{
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+.post-block p{
+    color: #F5F5F0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.6px;
+}
+.button-favorites {
+    height: 20px;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #56A969;
+    animation: spin 1s ease infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.box-spinner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
