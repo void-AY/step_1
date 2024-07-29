@@ -1,8 +1,6 @@
 .App {
-  /* text-align: center; */
   padding: 70px 120px;
   background-color: #1C1818;
-  /* min-height: 100vh; */
 }
 
 .App-header {
@@ -25,6 +23,9 @@
   display: flex;
   gap: 10px;
   align-items: center;
+}
+.App-link{
+  text-decoration: none;
 }
 
 

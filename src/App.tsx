@@ -32,7 +32,7 @@ const App: React.FC = () => {
     <div>
       <div className="App-header">
         <nav>
-          <Link to="/favorites" >
+          <Link className="App-link" to="/favorites" >
             <h3>Избранное</h3>
             <Vector/>          
           </Link>          
