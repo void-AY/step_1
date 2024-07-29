@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Martian+Mono:wght@100..800&display=swap');
+.main-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-user {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    width: 245px;
+    height: 142px;
+    padding: 15px 20px;
+    background-color: #2E2B2B;
+    border-radius: 18px;
+    gap: 10px;
+}
+.card-user:hover {
+    background-color: #514D4D;
+}
+.card-user h1{
+    color: #F5F5F0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: -0.3%;
+    margin: 0;
+    overflow-x: clip;
+    white-space: nowrap;
+}
+.card-user p{
+    color: #F5F5F0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: -0.3%;
+    margin: 0;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.pagination-arrow {
+    width: 74px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-color: #56A969;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.pagination-arrow:disabled {
+    cursor: not-allowed;
+    background-color: #514D4D;
+}
+.pagination-arrow p{
+    font-family: 'Fira Code';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #F5F5F0;
+}
+
+.pagination-info {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #FFFFFF;
+    align-self: center;
+}
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #56A969;
+    animation: spin 1s ease infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.box-spinner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
